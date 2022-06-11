@@ -39,6 +39,9 @@ if is_found:
         v = path[v]
         arr.append(v)
     arr.reverse()
+    print("Thu tu kham pha: ")
+    print(closed)
+    print("Duong di cuoi cung: ")
     print(*arr)
 else:
     print("Khong tim thay duong di")
